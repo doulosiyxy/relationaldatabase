@@ -4,7 +4,6 @@ PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 #generate random number
 GENERATE_NUMBER() {
   RANDOM_NUMBER=$(( RANDOM % 1000))
-  echo $RANDOM_NUMBER
   GET_USERNAME
 }
 
